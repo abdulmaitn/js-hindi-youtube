@@ -13,6 +13,7 @@
 // console.log(undefined == 0); // false
 // console.log(undefined);
 
+// visit link:  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
 
 
 
