@@ -14,39 +14,8 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "yarn install",
 // Configure tool-specific properties.
-"customizations": {
-	"vscode": {
-		"extensions": [
-			"esbenp.prettier-vscode",
-			"vscode-icons-team.vscode-icons",
-			"wayou.vscode-todo-highlight"
-		],
-		"settings": {
-			"editor.fontSize": 32,
-			"terminal.integrated.fontSize": 24,
-			"editor.wordWrap": "on"
-		}
-		
-	}
-
-	{
-		"name": "Node.js Development Container",
-		"image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:16",
-		"postCreateCommand": "npm install",
-		"customizations": {
-		  "vscode": {
-			"extensions": [
-			  "dbaeumer.vscode-eslint"
-			]
-		  }
-		},
-		"settings": {
-		  "terminal.integrated.shell.linux": "/bin/bash"
-		}
-	  }
-	  
 	
- }
+//  }
 	// Configure tool-specific properties.
 	// "customizations": {},
 
