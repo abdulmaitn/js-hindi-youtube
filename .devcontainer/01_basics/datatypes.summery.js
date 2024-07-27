@@ -39,3 +39,9 @@ const myFunction = function(){
 
 
 console.log(typeof bigNumber);
+
+
+// Heap & Stack
+
+// visit the link
+// https://codedamn.com/news/javascript/memory-management-complete-guide
