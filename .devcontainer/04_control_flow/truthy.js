@@ -1,11 +1,11 @@
 // const userEmail = "hitesh@gamil.com"
-const userEmail = [];         // seems to have true value
-                                        // "" error  // [] is true
-if (userEmail) {
-    console.log("Got user email");
-}else{
-    console.log("Don't have user email");
-}
+// const userEmail = [];         // seems to have true value
+//                                         // "" error  // [] is true
+// if (userEmail) {
+//     console.log("Got user email");
+// }else{
+//     console.log("Don't have user email");
+// }
 
 
 //falsy values
@@ -15,12 +15,50 @@ if (userEmail) {
 // "0", `false`, " ", [], {}, function(){},
 
 
-if (userEmail.length === 0) {
-    console.log("Array is empty");  
-}
+// if (userEmail.length === 0) {
+//     console.log("Array is empty");  
+// }
 
-const emptyObj = {}
+// const emptyObj = {}
 
-if (Object.keys(emptyObj).length === 0) {
-    console.log("Object is empty");
-}
+// if (Object.keys(emptyObj).length === 0) {
+//     console.log("Object is empty");    // Object is empty     
+// }    
+
+
+// Notes:
+// false == 0
+// true
+// false == ""
+// true
+// 0 == ""
+// true
+
+
+
+
+// Nullish Coalescing Operator (??): null undefined
+
+let val1;
+// val1 = 5 ?? 10
+// val1 = null ?? 10
+//val1 = undefined ?? 15
+//val1 = null ? 10 ?? 20
+
+
+
+
+
+//console.log(val1);  // 5
+//console.log(val1); // 10
+//console.log(val1); // 15
+//console.log(val1); // 10(first value assign)
+
+
+
+// Terniary Operator
+
+// condition ? true : false;
+
+const iceTeaPrice = 100
+iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80");  // more than 80
